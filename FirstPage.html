@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>basic code page</title>
+    <title> scrap code page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FirstPage.css">
 </head>
 <body>
     <h6>Day1</h6>
@@ -41,13 +44,13 @@
 
     <h1>Things I've Learned</h1>
 
-        <h2>Internet Basics</h2>
+    <h2>Internet Basics</h2>
 
-        <ol>
-            <li>HTTP Request</li>
-            <li>IP Address</li>
-            <li>Servers</li>
-        </ol>
+     <ol>
+     <li>HTTP Request</li>
+       <li>IP Address</li>
+     <li>Servers</li>
+    </ol>
 
     <h2>HTML</h2>
 
@@ -82,10 +85,10 @@
  <img src="https://www.automoblog.net/wp-content/uploads/2020/09/Lamborghini-Urus-Graphite-Capsule-3-1536x1024.jpg" width="400px" height="300px" alt=" This is the image of a Lamborghini-Urus-Graphite-Capsule">
     
  <a href="https://www.automoblog.net/wp-content/uploads/2020/09/Lamborghini-Urus-Graphite-Capsule-3-1536x1024.jpg"> click to view image source</a>
-<br>
+    <br>
  <a href="chris.html">go to Chris Ngige page</a>
-
-  <hr>
+    <br>
+    <br>
 
   <h2>The Lamborghini Urus</h2>
 
@@ -98,7 +101,7 @@
 
    <ul>
     <li>London</li>
-   <li>Paris</li>
+   <li class="line">Paris</li>
    <li>Abuja</li>
    </ul>
 
@@ -108,7 +111,7 @@
     <h5>Day3</h5>
       <h2>Tables</h2>
       
-      <table border="1">
+      <table border="">
         <tr>
             <td>Red</td>
             <td>Orange</td>
@@ -121,7 +124,7 @@
 
       <br>
 
-      <table border="2">
+      <table border="">
         <tr>
             <th>Name</th>
             <th>Age</th>
@@ -129,12 +132,12 @@
         </tr>
         <tr>
             <td>Rusty</td>
-            <td>2</td>
+            <td>4</td>
             <td>Mutt</td>
         </tr>
         <tr>
             <td>Nikky</td>
-            <td>4</td>
+            <td><1</td>
             <td>Bull Mastiff</td>
         </tr>
       </table>
@@ -161,12 +164,240 @@
             <td>2021</td>
         </tr>
       </table>
-<hr>
-<h5>Day 4 in 5</h5>
+    <hr>
+    <h5>Day 4 in 6</h5>
   
-<h2>Forms</h2>
+    <h2>Forms</h2>
+
+    <!-- action= where the form sends data to -->
+    <!-- method= what http method (get/post) -->
+
+    <h1>SignIn Facebook</h1>
+
+    <form action="sign-in-url" method="post" class="SignIn">
+        <div class="SignIn">
+            <input type="email" placeholder="email" >
+            <input type="text" placeholder=" name" >
+            <input type="password" placeholder="password" >
+
+            <br>
+            <input type="radio">
+            <input type="color">
+            <input type="submit">
+        </div>
+    </form>
+    <br>
+
+    
+    <h1>Login Facebook</h1>
+
+    <form class="Login">
+        <div class="Login">
+            <input type="text" placeholder=" username">
+            <input type="password" placeholder="password">
+            <button>Login</button>
+        </div>
+    </form>
+
+    <br>
+
+    <p>Gender</p>
+
+    <form action="">
+        <label for="male">MALE</label>
+        <input name="Male" type="radio">
+        <label for="female">FEMALE</label>
+        <input type="radio">
+    </form>
+
+    <br>
+   
+    
+    <h1>Register Facebook</h1>
+    <form action="" method="get" class="Register">
+        <div class="Register">
+            <label for="FirstName">FirstName:</label>
+            <input name="FirstName" id="FirstName" type="text"
+            placeholder="UJU"required>
+                    
+            <label for="LastName">LastName:</label>
+            <input name="LastName" id="LastName" type="text"
+            placeholder="EBELE" required> 
+        </div>
+
+        <div class="Register">
+            <label for="Male">Male</label>
+            <input name="gender" id="Male" type="radio" value="Male">
+            
+            <label for="Female">Female</label>
+            <input name="gender" id="Female" type="radio" value="Female">
+            
+            <label for="Prefer not to say">Prefer not to say</label>
+            <input name="gender" id="Prefer not to say" type="radio" 
+            value="Prefer not to say">
+        </div>
+            
+
+        <div class="Register">
+            <label for="Email">Email:</label>
+            <input  type="email" name="Email" id="Email"
+            placeholder ="uju too dey worry@gmail" required>
+            
+            <label for="psw">Password:</label>
+            <input  type="password" pattern=".{5,}" 
+            name="Password" id="psw"
+            placeholder="ujuEbele"  required>
+        </div>
+
+                
+        <div class="Register">
+            <label for="">
+                Birthday:
+                <select name="Month"  required>
+                <option> Month </option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+                </select>
+
+                <select month="Day" required>
+                <option value="">Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                </select>
+            
+                <select month="Year" required>
+                <option value="">Year</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                </select>
+        
+            </label>  
+        </div>
+         
+        <div class="Register">
+            <label for="checkbox">I agree to the terms and conditions</label>
+            <input type="checkbox" checked name="checkbox" id="checkbox" >
+        </div>
 
 
+        <div class="Register">
+            <h5>FEEDBACK</h5>
+            <textarea name="FEEDBACK" id="FEEDBACK"
+                cols="25" rows="5">Uju you too dey worry, try dey rest...
+            </textarea>
+        </div>
 
+    </form>
+    <input type="submit">
+
+    <!-- first name <> last name<>
+    male o female o Others o 
+    email: <> paswrd: <>
+    birthday mnth day years
+    i agree to the terms and conditions checkbox
+    submit -->
+    <hr>
+    
+    <h1>Box Model</h1>
+
+    <P id="p">I AM A PARAGRAPH</P>
+    <P id="p">I AM A PARAGRAPH</P>
+    
+    <h1 id="tic">Tic Tac Toe</h1>
+
+    <table>
+        <tr>
+            <td></td>
+            <td class="vertical"></td>
+            <td></td>
+        </tr>
+    
+        <tr>
+           <td class="horizontal"></td>
+            <td class="vertical horizontal"></td>
+            <td class="horizontal"></td>
+        </tr>
+
+        <tr>
+          <td></td>
+           <td class="vertical"></td>
+           <td></td>
+        </tr>
+   </table>
+
+   <hr>
+
+    <h1> Photo Grid</h1>
+
+    <p id="my">My photo grid</p>
+    
+    <img src="https://th.bing.com/th/id/OIP.oqmBe8wpnsCUUuxUwyv5TAHaE8?pid=ImgDet&rs=1" id="grid"alt="">
+    <img src="https://th.bing.com/th/id/OIP.1YM53mG10H_U25iPjop83QHaEo?pid=ImgDet&rs=1" id="grid"alt="">
+    <img src="https://th.bing.com/th/id/OIP.UYV_bihup-y039M8_Dk0KQHaFP?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" id="grid" alt="">
+
+    <img src=" https://th.bing.com/th/id/OIP.1YM53mG10H_U25iPjop83QHaEo?pid=ImgDet&rs=1" id="grid"alt="">
+    <img src="https://th.bing.com/th/id/OIP.UYV_bihup-y039M8_Dk0KQHaFP?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" id="grid" alt="">
+    <img src="https://th.bing.com/th/id/OIP.oqmBe8wpnsCUUuxUwyv5TAHaE8?pid=ImgDet&rs=1" id="grid" alt="">
+
+    <img src="https://th.bing.com/th/id/OIP.oqmBe8wpnsCUUuxUwyv5TAHaE8?pid=ImgDet&rs=1" id="grid" alt="">
+    <img src="https://th.bing.com/th/id/OIP.1YM53mG10H_U25iPjop83QHaEo?pid=ImgDet&rs=1" id="grid" alt="">
+    <img src="https://th.bing.com/th/id/OIP.UYV_bihup-y039M8_Dk0KQHaFP?w=255&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" id="grid" alt="">
+
+    <hr>
+    <!-- blog -->
+
+    <div class="blog">
+
+        <div class="date"> april 10 2023 </div>
+
+        
+        <h2>This Is My First Article</h2>
+
+        <p class="qoute">Bacon ipsum dolor amet flank tail jerky short ribs tri-tip. Ball tip andouille fatback tail cow pastrami, shank prosciutto beef ribs sirloin tongue bresaola. Salami pig sausage landjaeger rump pork chop pork loin jerky shoulder porchetta brisket turducken ribeye pancetta. T-bone strip steak kielbasa flank pork ribeye pork belly shoulder bacon frankfurter.
+        </p>
+
+        <p>Bacon ipsum dolor amet flank tail jerky short ribs tri-tip. Ball tip andouille fatback tail cow pastrami, shank prosciutto beef ribs sirloin tongue bresaola. Salami pig sausage landjaeger rump pork chop pork loin jerky shoulder porchetta brisket turducken ribeye pancetta. T-bone strip steak kielbasa flank pork ribeye pork belly shoulder bacon frankfurter.
+
+        <p>Cow ribeye bresaola strip steak bacon boudin venison ham brisket sausage pork chop jerky hamburger andouille flank. Tongue biltong andouille kielbasa, fatback pork chop brisket swine boudin kevin jowl sirloin. Turkey pig burgdoggen, shankle pork loin flank tenderloin boudin cupim corned beef. Kevin pork chop brisket, boudin andouille pork rump spare ribs sausage tongue turducken burgdoggen sirloin pancetta salami. Ball tip porchetta pork chop shoulder. Shankle pork belly ball tip venison flank picanha kielbasa.
+        </p>
+
+        <hr class="curve">
+
+        <div class="date"> april 10 2023 </div>
+
+        
+        <h2>This Is My Other Article</h2>
+
+        <p class="qoute">Bacon ipsum dolor amet flank tail jerky short ribs tri-tip. Ball tip andouille fatback tail cow pastrami, shank prosciutto beef ribs sirloin tongue bresaola. Salami pig sausage landjaeger rump pork chop pork loin jerky shoulder porchetta brisket turducken ribeye pancetta. T-bone strip steak kielbasa flank pork ribeye pork belly shoulder bacon frankfurter.
+        </p>
+
+        <p>Bacon ipsum dolor amet flank tail jerky short ribs tri-tip. Ball tip andouille fatback tail cow pastrami, shank prosciutto beef ribs sirloin tongue bresaola. Salami pig sausage landjaeger rump pork chop pork loin jerky shoulder porchetta brisket turducken ribeye pancetta. T-bone strip steak kielbasa flank pork ribeye pork belly shoulder bacon frankfurter.
+
+        <p>Cow ribeye bresaola strip steak bacon boudin venison ham brisket sausage pork chop jerky hamburger andouille flank. Tongue biltong andouille kielbasa, fatback pork chop brisket swine boudin kevin jowl sirloin. Turkey pig burgdoggen, shankle pork loin flank tenderloin boudin cupim corned beef. Kevin pork chop brisket, boudin andouille pork rump spare ribs sausage tongue turducken burgdoggen sirloin pancetta salami. Ball tip porchetta pork chop shoulder. Shankle pork belly ball tip venison flank picanha kielbasa.
+        </p>
+        
+
+    </div>
+
+     
+ 
 </body>
 </html>

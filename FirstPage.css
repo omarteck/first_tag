@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(24, 15, 15);
+    color: rgb(144, 153, 60); 
+}
+
+h2{
+    color: red;
+}
+h1{
+    color: rgb(50, 50, 215);
+}
+
+li{
+    color: rgb(125, 104, 8);
+}
+
+img{
+    background-color: rgb(199, 156, 91);
+}
+
+input{
+    border: 3px solid rgb(225, 225,225); background-color: rgb(225, 225, 225);
+}
+.bbk{
+    border: px solid rgb(0, 128, 0);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+
+form.SignIn{
+    background-color: rgb(50,50,150) 
+}
+div.SignIn{
+    border:1px solid rgb(50, 50, 215) 
+}
+form.Login{
+    background-color: rgb(50,50,150)
+}
+div.Login{
+    border:1px solid rgb(50, 50, 215) 
+}
+form.Register{
+    background-color: rgb(50,50,150)
+}
+div.Register{
+    border:1px solid rgb(50, 50, 215)  
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+/*the box model*/
+#p{
+    /*content - width and heigt*/
+    width: 50%;
+
+    /*borader*/ 
+    border: 2px solid blue;
+
+    /*padding*/
+    padding: 10px;
+
+    /*margin*/
+   /* margin: 100px;*/
+   /*margin-top: 500px;*/
+   /*margin: 20px 40px 500px 100px;*/
+   /*margin: 0 auto 0 auto;*/
+   /*margin: 0 auto;*/
+   margin: 50px 20px;
+}
+
+/*Tic Tac Toe*/
+
+table {
+    margin: auto;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    
+}
+.vertical{
+     
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+}
+
+.horizontal{
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+#tic{
+    text-align: center;
+}
+
+/* Photo Grid*/
+
+#grid{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    height: 200px;
+}
+
+#my{
+    font-family: Raleway;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+/*blog site*/
+
+div.blog{
+    border: 20px solid #f1f1f1;
+    padding: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    width: 80%;
+    font-family: source sans pro;
+
+}
+
+.qoute{
+    border-left: 5px solid #f1f1f1;
+    padding-left: 5px;
+}
+
+.date{
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.curve{
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.curve:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-width:  0 0 1px 0;
+    border-radius: 20px; 
+}  
+
